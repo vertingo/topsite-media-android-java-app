@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="border_color">#303F9F</color>
+    <color name="background_color">#3F51B5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light_black">#504f4f</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#ff888888</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="pdfViewPager_background_color">@android:color/white</color>
+    <color name="pdfViewPager_ab_color">#990000</color>
+    <color name="pdfViewPager_ab_color_lighter">#CC0000</color>
+    <color name="pdfViewPager_ab_color_darker">#660000</color>
+</resources>

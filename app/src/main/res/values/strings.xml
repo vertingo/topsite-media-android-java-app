@@ -1,0 +1,331 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TopSiteApp</string>
+    <string name="gcm_send_message">Identification envoyé au serveur... \n[Récupérations de vos données...]\n[Activation des notifications push mobile...]!</string>
+    <string name="token_error_message">Une erreur s\'est produite, veuillez réessayer!</string>
+    <string name="registering_message">Génération d\'un token! \n+\n Connexion au serveur Vertin Go Website...!</string>
+    <string name="notif_message">Diffuser et partager le lien de votre File Manager pour recevoir des notifications push de téléchargement,\n partage, affichage popup comme illustré ci-dessous!</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="share">Partager!</string>
+    <string name="notification_message">Notification push reçu sur votre mobile!</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="error">Erreur</string>
+    <string name="success">Success</string>
+    <string name="successfullypostedpost">Success</string>
+    <string name="hello_user">Hello</string>
+    <string name="ok">Ok</string>
+    <string name="download">Afficher un aperçu de votre fichier pdf!</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+
+    <string name="sharing_text">Your sharing text goes here…</string>
+    <string name="share_title">Share Screenshot</string>
+    <string name="screenshot_take_failed">Failed to take screenshot!!</string>
+    <string name="wait">Please wait…</string>
+    <string name="full_page_screenshot">Partager une capture d\'écran!</string>
+    <string name="hidden_text">Hidden Text</string>
+    <string name="custom_page_screenshot">Custom Page Screenshot</string>
+    <string name="remote_pdf_url">Remote PDF URL</string>
+    <string name="sample_pdf_url">http://vertin-go.com/TopSite/document/Emails_exemples.pdf</string>
+    <string name="remote_pdf_example">Aperçu de fichier PDF</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="password_non_identic">"Mot de passe non identique!"
+    </string>
+
+    <string name="pseudo_deja_prit">"Erreur le pseudo choisi est déjà utilisé!"
+    </string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <!-- These are the strings for the button on the main page -->
+    <string name="send_sms_notification">Send SMS Notification</string>
+    <string name="send_picture_notification">Send picture Notification</string>
+    <string name="send_promotion_notification">Send promotion Notification</string>
+
+    <!-- These are the titles and descriptions for each type of notification -->
+    <string name="sms_notification_title">SMS Notification</string>
+    <string name="sms_notification_content">We just sent a SMS notification. Yay!</string>
+
+    <string name="picture_notification_title">Picture Notification</string>
+    <string name="picture_notification_content">We just sent a picture notification. Yay!</string>
+
+    <string name="promotion_notification_title">Promotion Notification</string>
+    <string name="promotion_notification_content">We just sent a promotion notification. Yay!</string>
+
+    <!-- Groups, where they can contain one or more channels. ex: SMS contains channels text and
+     pictures, while promotions only contains weekly ads channel. -->
+    <string name="SMS">SMS</string>
+    <string name="Promotions">Promotions</string>
+    <!-- Text Channel under SMS -->
+    <string name="sms_channel_name">Text</string>
+    <!-- Picture Channel under SMS -->
+    <string name="picture_channel_name">Picture</string>
+    <!-- Ads Channel under Promotions -->
+    <string name="ads_channel_name">Weekly ads</string>
+
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="image_content_description">Un Android avec un chien</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="email">Adresse email</string>
+    <string name="password">Mot de passe</string>
+    <string name="password2">Répétez le mot de passe</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="connect">Se connecter</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="title_activity_login_display">LoginDisplayActivity</string>
+    <string name="hint_mail">"Ici : L'adresse email de l'utilisateur"</string>
+    <string name="hint_pass">"Ici : Le mot de passe de l'utilisateur"</string>
+    <string name="email_or_password_empty">"L'adresse email et mot de passe sont obligatoires"</string>
+    <string name="email_format_error">"Le champs email ne correspond pas au format d'une adresse email"</string>
+    <string name="group_item1">"Menu"</string>
+    <string name="submenu_item1">"submenu_item1"</string>
+    <string name="title_activity_statistiques">Statistiques</string>
+    <string name="facebook_app_id">895056013904576</string>
+    <string name="fb_login_protocol_scheme">fb895056013904576</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_inventaires">Inventaires</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="android_custom_horizontal_dropdown_menu_icons">Android Custom Horizontal Dropdown Menu Icons</string>
+    <string name="title_activity_partage">PartageActivity</string>
+
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="delete">Delete</string>
+
+    <string name="del_cache_files">Delete all downloaded files</string>
+    <string name="del_file_error_empty">Empty folder already</string>
+
+    <string name="single_task_test_title">Single task test</string>
+    <string name="performance_test_title">Performance test</string>
+    <string name="performance_test_parcel">100000(times) Basic performance test</string>
+    <string name="performance_test_output">Output performance test</string>
+
+
+    <string name="tasks_manager_demo_title">Tasks Manager Demo</string>
+    <string name="tasks_manager_demo_name" formatted="false">task: %d</string>
+    <string name="tasks_manager_demo_status_loading">Status: loading...</string>
+    <string name="tasks_manager_demo_status_pending">Status: pending</string>
+    <string name="tasks_manager_demo_status_started">Status: started</string>
+    <string name="tasks_manager_demo_status_connected">Status: connected</string>
+    <string name="tasks_manager_demo_status_progress">Status: progressing</string>
+    <string name="tasks_manager_demo_status_downloading" formatted="false">Status: downloading %d</string>
+    <string name="tasks_manager_demo_status_error">Status: error</string>
+    <string name="tasks_manager_demo_status_paused">Status: paused</string>
+    <string name="tasks_manager_demo_status_completed">Status: completed</string>
+    <string name="tasks_manager_demo_status_not_downloaded">Status: has not downloaded</string>
+
+    <!-- hybrid test -->
+    <string name="hybrid_test_title">Hybrid test</string>
+    <string name="hybrid_test_deleted_file" formatted="false">Deleted: %s</string>
+    <string name="hybrid_test_start_single_task" formatted="false">Start single task: %s</string>
+    <string name="hybrid_test_start_multiple_tasks_parallel" formatted="false">Start %d tasks to download in parallel</string>
+    <string name="hybrid_test_start_multiple_tasks_serial" formatted="false">Start %d tasks to download linearly</string>
+    <string name="hybrid_test_multiple_tasks_parallel_title">Execute multiple tasks in parallel</string>
+    <string name="hybrid_test_multiple_tasks_serial_title">Execute multiple tasks linearly</string>
+    <string name="hybrid_test_single_task_title">Execute single task</string>
+    <string name="avoid_missing_screen_frames">Avoid Missing Screen Frames</string>
+
+    <!-- notification demo -->
+    <string name="notification_demo_title">Notification Demo</string>
+
+    <string name="notification_sample_title">Notification Sample Demo</string>
+    <string name="notification_sample_desc">This is notification sample demo, in this demo, we show the downloading information in the notification panel, we also need to get the downloading information to show in Activity, and we still hold the notification item in the notification panel when downloading is finished.</string>
+    <string name="notification_sample_show">Show the Notification</string>
+
+    <string name="notification_min_set_title">Notification MinSet Demo</string>
+    <string name="notification_min_set_desc">This is notification min set demo, it means that we use as little as possible code to bind notification with downloading tasks.</string>
+
+    <!-- multitask test -->
+    <string name="multitask_test_title">Multiple tasks test</string>
+    <string name="title_activity_menu__inventaires">Menu_Inventaires</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Menu Principale</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_menu__partage">Menu_PartageActivity</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_menu__drawer">Menu_Drawer</string>
+    <string name="title_activity_menu__principale__drawer">Menu_Principale_Drawer</string>
+
+    <string name="title_activity_video_adapter">VideoAdapter</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="youtube_api_demo">YouTube API Demos</string>
+
+    <string name="videowall_demo_name">Video Wall</string>
+    <string name="videolist_demo_name">Video List</string>
+    <string name="standalone_player_demo_name">Standalone Player</string>
+    <string name="playerview_demo_name">Simple PlayerView</string>
+    <string name="fragment_demo_name">Simple PlayerFragment</string>
+    <string name="player_controls_demo_name">Custom Player Controls</string>
+    <string name="action_bar_demo_name">Overlay ActionBar Demo</string>
+    <string name="fullscreen_demo_name">Custom Fullscreen Handling</string>
+    <string name="intents_demo_name">YouTube App Launcher Intents</string>
+
+    <string name="playerview_text">Ci-dessous une PlayerViewActivity pour entamer votre parcours avec Vertin Go Website:</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+
+    <string name="demo_select">Please select a demo:</string>
+    <string name="some_demos_disabled">* Your device is currently running Android API version <xliff:g id="current_version">%1$s</xliff:g>.</string>
+    <string name="list_item_disabled">Requires Android API version <xliff:g id="required_version">%1$s</xliff:g> or higher.</string>
+
+    <string name="play">Play</string>
+
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="play_video_list">Play video list</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+
+    <string name="intent_select">Please select an action:</string>
+    <string name="intent_disabled">This intent is not supported with the currently installed version of YouTube.</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+
+    <string name="fullscreen_tutorial">This is a demo which shows how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button). If your activity does not have a landscape layout, you can choose to automatically enter fullscreen when the device is rotated to landscape orientation.</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="isLaunchableActivity" />
+    <string name="minVersion" />
+    <string name="loggingTag" />
+
+    <string name="title_activity_visite_banniere_annonce">VisiteActivityBanniereAnnonce</string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"http://vertin-go.com\",\n  }\n}]</string>
+</resources>

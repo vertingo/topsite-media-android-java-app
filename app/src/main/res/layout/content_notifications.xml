@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.vertin_go.topsiteapp.Notifications"
+    tools:showIn="@layout/content_notifications">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@android:color/white"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pub_cible"
+            android:contentDescription="@string/image_content_description" />
+
+        <TextView android:text="@string/notification_message"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:layout_marginTop="-40dp"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:id="@+id/information_notification" />
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <com.facebook.share.widget.LikeView
+                android:id="@+id/like_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <com.facebook.share.widget.ShareButton
+                android:id="@+id/share_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:actionProviderClass="android.widget.ShareActionProvider" />
+        </TableRow>
+
+        <LinearLayout
+            android:id="@+id/root_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <!--  Button which will take full page screenshot  -->
+
+            <Button
+                android:id="@+id/full_page_screenshot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/full_page_screenshot"
+                 />
+
+            <!--   Hidden Text which will shown when taking screenshot from below Button  -->
+            <TextView
+                android:id="@+id/hidden_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/hidden_text"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+            <!--  ImageView to show taken Screenshot  -->
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/capturedecran"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>

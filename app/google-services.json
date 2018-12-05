@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "482574690279",
+    "firebase_url": "https://delta-vial-177705.firebaseio.com",
+    "project_id": "delta-vial-177705",
+    "storage_bucket": "delta-vial-177705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482574690279:android:29ccd0065c7d1783",
+        "android_client_info": {
+          "package_name": "com.vertin_go.topsiteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482574690279-el80kts95bmjlm4nfsnpfgeeueogf1l9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vertin_go.topsiteapp",
+            "certificate_hash": "4720bb458b224575834ff96f16dc90f2934bdba1"
+          }
+        },
+        {
+          "client_id": "482574690279-nsalgtvdbkbo6st4dn0c36lcm378s0hb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "482574690279-1jrr2o3rcc9as5te9ot1fkt4pgdudl52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDECEPi3wcGw_gV0mRMMDj5-TRWHcsLW18"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

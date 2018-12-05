@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+// Create a variable called keystorePropertiesFile, and initialize it to your
+// keystore.properties file, in the rootProject folder.
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initialize a new Properties() object called keystoreProperties.
+def keystoreProperties = new Properties()
+
+// Load your keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+
+android {
+    defaultConfig {}
+
+    android {
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+    }
+
+
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword 'vertingo'
+            storeFile file('C:/Users/tedal/OneDrive/Bureau/Projet Informatique/Application Mobile/TopSiteApp/app/signature.jks')
+            storePassword 'vertingo'
+        }
+    }
+    compileSdkVersion 27
+    buildToolsVersion '28.0.2'
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.vertin_go.topsiteapp"
+        minSdkVersion 26
+        targetSdkVersion 27
+        versionCode 15
+        versionName "15.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+ext {
+    SUPPORT_LIB_VER = '26.3.1'
+    GOOGLE_LIB_VER = '11.0.0'
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    compile project(':facebook-android-sdk-4.26.0')
+    compile files('libs/universal-image-loader-1.9.5/universal-image-loader-1.9.5.jar')
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'com.google.firebase:firebase-appindexing:10.0.0'
+    implementation 'com.liulishuo.filedownloader:library:1.6.4'
+    implementation 'com.android.support:recyclerview-v7:27.0.0'
+    implementation 'com.android.support:cardview-v7:27.0.0'
+    implementation 'com.google.firebase:firebase-messaging:10.0.0'
+    implementation 'com.google.android.gms:play-services-gcm:10.0.0'
+    implementation 'com.google.android.gms:play-services-auth:10.0.0'
+    implementation 'com.google.android.gms:play-services-maps:10.0.0'
+    implementation 'com.google.android.gms:play-services-ads:10.0.0'
+    implementation 'com.squareup.okhttp:okhttp:2.4.0'
+    implementation 'com.android.support:design:27.0.0'
+    implementation 'com.android.support:support-v4:27.0.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'com.android.support:support-vector-drawable:27.0.0'
+    implementation 'es.voghdev.pdfviewpager:library:1.0.2'
+    implementation 'com.android.support:support-core-utils:27.0.0'
+    implementation 'com.android.support:appcompat-v7:27.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    testImplementation 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

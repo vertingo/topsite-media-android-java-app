@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginBottom="10dp">
+
+    <WebView
+        android:id="@+id/webVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </WebView>
+
+    <LinearLayout
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/my_border"
+        android:layout_gravity="center">
+
+        <com.facebook.share.widget.ShareButton
+            android:id="@+id/share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:actionProviderClass="android.widget.ShareActionProvider" />
+
+        <com.facebook.share.widget.SendButton
+            android:id="@+id/send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:actionProviderClass="android.widget.ShareActionProvider" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

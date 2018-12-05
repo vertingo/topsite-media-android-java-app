@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.vertin_go.topsiteapp.ShareDialogPartageActivity"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+      <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/pBAsync"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+      <WebView
+          android:id="@+id/webView"
+          android:layout_width="350dp"
+          android:layout_height="280dp"></WebView>
+
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <com.facebook.share.widget.ShareButton
+            android:id="@+id/share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:actionProviderClass="android.widget.ShareActionProvider" />
+
+            <TextView
+                android:id="@+id/credits"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+            <TextView
+                android:id="@+id/greeting"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <com.facebook.login.widget.ProfilePictureView
+            android:id="@+id/profilePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            ></com.facebook.login.widget.ProfilePictureView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <Button
+        android:id="@+id/vertingowebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertin Go Website!"
+        />
+
+    <Button
+        android:id="@+id/visiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visiter le site!"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/root_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <!--  Button which will take full page screenshot  -->
+
+        <Button
+            android:id="@+id/full_page_screenshot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/full_page_screenshot"
+            />
+
+        <!--   Hidden Text which will shown when taking screenshot from below Button  -->
+        <TextView
+            android:id="@+id/hidden_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/hidden_text"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:visibility="invisible" />
+
+        <!--  ImageView to show taken Screenshot  -->
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/capturedecran"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

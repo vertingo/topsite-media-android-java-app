@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/list_item_mp3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/banniere_pub"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is row number 15"
+        android:textColor="@color/com_facebook_blue"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/list_item_text"
+        android:layout_toEndOf="@+id/list_item_mp3"
+        android:layout_toRightOf="@+id/list_item_mp3"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visiter!"
+        android:layout_alignParentRight="true"
+        android:id="@+id/list_item_download"/>
+
+</RelativeLayout>

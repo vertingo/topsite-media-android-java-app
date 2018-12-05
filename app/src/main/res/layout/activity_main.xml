@@ -1,0 +1,190 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/share_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.vertin_go.topsiteapp.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="30dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f1f1f1"
+                >
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Pseudo:"
+                        android:textColor="@color/com_facebook_blue"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Connexion:"
+                        android:textColor="@color/com_facebook_blue"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+                </TableRow>
+                <!-- Add a blue line. -->
+                <View
+                    android:background="@color/colorPrimary"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"/>
+
+            </TableLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_scrollFlags="scroll|enterAlways" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-300dp"
+        android:background="@drawable/my_border"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/informationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/com_facebook_blue"
+            android:layout_gravity="center"
+            android:text="@string/registering_message"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"
+            />
+        <!-- Add a blue line. -->
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"/>
+
+        <ImageView
+            android:id="@+id/imagenotif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/topsiteappnotif" />
+        <!-- Add a blue line. -->
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:id="@+id/informationTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/com_facebook_blue"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"
+            />
+        <!-- Add a blue line. -->
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"/>
+        <ProgressBar
+            android:id="@+id/registrationProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
+            app:layout_anchor="@+id/tableRow2"
+            app:layout_anchorGravity="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/com_facebook_blue"
+            android:gravity="center"
+            android:text="@string/playerview_text"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"/>
+        <!-- Add a blue line. -->
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"/>
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="207dp"
+        android:gravity="center"></WebView>
+
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/my_border"
+        android:orientation="vertical">
+
+
+        <com.facebook.share.widget.LikeView
+            android:id="@+id/like_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.facebook.share.widget.LikeView>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/navigation" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
+
