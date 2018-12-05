@@ -77,3 +77,14 @@ TopSiteApp Media
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/TopSiteApp_Media/master/images/TopSiteAppDemo2.gif" width="1000" height="300"/></a>
 </p>
 <br>
+
+```
+Un petit coup de pouce suivez nous sur YouTube et Facebook!
+[You Tube] ==> https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1 
+[Facebook] ==> https://www.facebook.com/vertingo/ 
+```
+  
+<p align="center">
+  <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/youtube2.png" width="400" height="250"/></a>
+  <a href="https://www.facebook.com/vertingo/"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/rejoins_nous.png" width="400" height="250"/></a>
+</p>
