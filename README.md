@@ -7,7 +7,7 @@ TopSiteApp Media
 
 
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/TopSiteApp_Media/master/images/TopSiteAppDemo.gif" width="300" height="500"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/TopSiteApp_Media/master/images/TopSiteAppDemo.gif" width="1000" height="300"/></a>
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/TopSiteApp_Media/master/images/topsiteapp.png" width="300" height="500"/></a>
 <br>
@@ -39,6 +39,6 @@ TopSiteApp Media
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/TopSiteApp_Media/master/images/topsiteapp15.png" width="300" height="500"/></a>
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/TopSiteApp_Media/master/images/TopSiteAppDemo2.gif" width="300" height="500"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/TopSiteApp_Media/master/images/TopSiteAppDemo2.gif" width="1000" height="300"/></a>
 </p>
 <br>
