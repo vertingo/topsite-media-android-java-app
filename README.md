@@ -11,6 +11,7 @@
 + <a href="https://github.com/vertingo/PDFViewerAndScreenshot" target="_blank">Système d'aperçu de fichier PDF et capture d'écran!</a> 
 + <a href="http://vertin-go.com/Fonctions_Annexes/annexes/pdt-page-de-telechargement/Pdf_De_Formation_Utiles/Pdf_MyListAdapter.pdf" target="_blank">Création d'un menu sous forme de liste adaptable en fonction de la taille des items afficher!</a> 
 + <a href="http://vertin-go.com/Fonctions_Annexes/annexes/pdt-page-de-telechargement/Pdf_De_Formation_Utiles/DeploiementEtApk.pdf" target="_blank">Comment générer et deployer un fichier APK signé sur Android Studio!</a>
++ <a href="https://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase" target="_blank">Synchronisation avec la Platform Media! Pour cela déployer votre platform media sur Heroku l'url de récupération des données dans la class RegistrationIntentService du projet Android par celui de votre url déployer sur Heroku de la forme: https://votre_nom_d_application.herokuapp.com/register_app_mobile</a>
 
 
 ### 🌐 Illustrations
@@ -82,6 +83,8 @@
 </p>
 <br>
 
+<a href="https://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase" target="_blank">Synchroniser l'application Mobile avec la Platform Media! Pour cela déployer votre version de la platform media sur Héroku et si vous installer l'application Mobile depuis Android Studio, changer l'url de récupération des données dans la class RegistrationIntentService par celui de votre url déployer sur Heroku de la forme: 
+  https://votre_nom_d_application.herokuapp.com/register_app_mobile</a><br>
 ```
 Un petit coup de pouce suivez nous sur YouTube et Facebook!
 [You Tube] ==> https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1 
