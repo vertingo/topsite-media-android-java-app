@@ -12,6 +12,7 @@
 + <a href="http://vertin-go.com/Fonctions_Annexes/annexes/pdt-page-de-telechargement/Pdf_De_Formation_Utiles/Pdf_MyListAdapter.pdf" target="_blank">Création d'un menu sous forme de liste adaptable en fonction de la taille des items afficher!</a> 
 + <a href="http://vertin-go.com/Fonctions_Annexes/annexes/pdt-page-de-telechargement/Pdf_De_Formation_Utiles/DeploiementEtApk.pdf" target="_blank">Comment générer et deployer un fichier APK signé sur Android Studio!</a>
 + <a href="https://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase" target="_blank">Synchronisation avec la Platform Media!</a> 
+
 <b>[Pour cela déployer votre platform media sur Heroku et modifier l'url de récupération des données dans la class RegistrationIntentService du projet Android par celui de votre url déployer sur Heroku de la forme: https://votre_nom_d_application.herokuapp.com/register_app_mobile]</b>
 
 
