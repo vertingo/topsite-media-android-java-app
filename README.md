@@ -86,6 +86,7 @@
 <br>
 
 <a href="https://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase" target="_blank">Synchroniser l'application Mobile avec la Platform Media!</a> 
+
 <b>[Pour cela déployer votre version de la platform media sur Héroku et si vous installer l'application Mobile depuis Android Studio, changer l'url de récupération des données dans la class RegistrationIntentService par celui de votre url déployer sur Heroku de la forme: https://votre_nom_d_application.herokuapp.com/register_app_mobile]</a></b><br>
 ```
 Un petit coup de pouce suivez nous sur YouTube et Facebook!
