@@ -328,4 +328,24 @@
 
     <string name="title_activity_visite_banniere_annonce">VisiteActivityBanniereAnnonce</string>
     <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"http://vertin-go.com\",\n  }\n}]</string>
+
+
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO DOWNLOAD NOTIFICATION button below to subscribe to the
+        download topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Download Notification</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed To Download Notification</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">Download</string>
+    <string name="msg_subscribe_failed">Failed To Subscribe To Download</string>
+    <string name="fcm_message">FCM Message</string>
 </resources>

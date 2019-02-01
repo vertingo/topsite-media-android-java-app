@@ -167,5 +167,7 @@
         <activity android:name=".RemotePDFActivity" />
 
         <activity android:name=".VideoWallDemoActivity" />
+
+        <activity android:name=".GcmMainActivity" />
     </application>
 </manifest>

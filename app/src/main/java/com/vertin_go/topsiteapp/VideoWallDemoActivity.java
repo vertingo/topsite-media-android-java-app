@@ -47,7 +47,7 @@ public class VideoWallDemoActivity extends Activity implements
     private static final int MAX_NUMBER_OF_ROWS_WANTED = 4;
 
     // Example playlist from which videos are displayed on the video wall
-    private static final String PLAYLIST_ID = "PLkVcopFUsyo4oI5J101mSqc2wgF4h_BGw";
+    private static final String PLAYLIST_ID = "PLkVcopFUsyo7ReESgIUBCT4A7QLHeMZ3q";
 
     private static final int INTER_IMAGE_PADDING_DP = 5;
 

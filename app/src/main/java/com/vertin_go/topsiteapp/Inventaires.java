@@ -338,6 +338,11 @@ public class Inventaires extends AppCompatActivity
                 startActivity(intent9);
             /* DO NOTIFICATIONS */
                 return true;
+            case R.id.action_fcm_config:
+                Intent intent10=new Intent(Inventaires.this,GcmMainActivity.class);
+                startActivity(intent10);
+                /* DO NOTIFICATIONS */
+                return true;
         }
 
         return super.onOptionsItemSelected(item);

@@ -1,9 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.vertin_go.topsiteapp.Statistiques">
-
-    <item android:id="@+id/action_main"
-        android:title="Accueil!"></item>
+    tools:context="com.vertin_go.topsiteapp.MainActivity">
 
     <item android:id="@+id/action_menu_principale"
         android:title="Menu principale!"></item>
@@ -20,16 +17,16 @@
     <!-- <item android:id="@+id/action_mes_videos_you_tube"
          android:title="Mes Videos You Tube!"></item>-->
 
-    <item android:id="@+id/action_notifications"
-        android:title="Mes notifications!"></item>
+     <item android:id="@+id/action_stats"
+         android:title="Mes statistiques TopSite!"></item>
 
-    <item android:id="@+id/action_you_tube_playlist"
-        android:title="Vertin Go Website Playlist!"></item>
+     <item android:id="@+id/action_notifications"
+         android:title="Mes notifications!"></item>
 
-    <item android:id="@+id/action_you_tube_wall"
-        android:title="Mur de tunnel de vente Vertin Go Website!"></item>
+     <item android:id="@+id/action_you_tube_playlist"
+         android:title="Vertin Go Website Playlist!"></item>
 
-    <item android:id="@+id/action_fcm_config"
-        android:title="Configurer les notifications push!"></item>
+     <item android:id="@+id/action_you_tube_wall"
+         android:title="Mur de tunnel de vente Vertin Go Website!"></item>
 
-</menu>
+ </menu>

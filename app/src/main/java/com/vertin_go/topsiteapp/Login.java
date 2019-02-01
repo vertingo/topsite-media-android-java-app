@@ -46,7 +46,7 @@ public class Login extends AppCompatActivity
                 final String loginTxt = login.getText().toString();
                 final String passTxt = pass.getText().toString();
 
-                //Si un des deux champs est vide, alors on affiche l'erreurs
+                //Si un des deux champs est vide, alors on affiche l'erreur
 
                 if (loginTxt.equals("") || passTxt.equals(""))
                 {

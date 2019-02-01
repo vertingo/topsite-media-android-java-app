@@ -29,4 +29,7 @@
      <item android:id="@+id/action_you_tube_wall"
          android:title="Mur de tunnel de vente Vertin Go Website!"></item>
 
+    <item android:id="@+id/action_fcm_config"
+        android:title="Configurer les notifications push!"></item>
+
  </menu>
