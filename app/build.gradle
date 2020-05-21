@@ -28,7 +28,7 @@ android {
         config {
             keyAlias 'key0'
             keyPassword ''
-            storeFile file('C:/Users/tedal/OneDrive/Bureau/Projet Informatique/Application Mobile/TopSiteApp/app/signature.jks')
+            storeFile file('C:/Users/tedal/OneDrive/Bureau/Ressources de Projets concrets/Ressources_Vertin_Go_Website/TopSite_App/TopSiteApp/app/signature.jks')
             storePassword ''
         }
     }
