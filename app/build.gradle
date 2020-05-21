@@ -27,9 +27,9 @@ android {
     signingConfigs {
         config {
             keyAlias 'key0'
-            keyPassword 'vertingo'
+            keyPassword ''
             storeFile file('C:/Users/tedal/OneDrive/Bureau/Projet Informatique/Application Mobile/TopSiteApp/app/signature.jks')
-            storePassword 'vertingo'
+            storePassword ''
         }
     }
     compileSdkVersion 27
