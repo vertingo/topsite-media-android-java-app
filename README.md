@@ -1,4 +1,4 @@
-![Image](https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/vertin_go_website.jpg)
+![Image](https://raw.githubusercontent.com/vertingo/multienv-stack-docker/main/docs/assets/banner.png)
 
 # 🌐 TopSiteApp Media
 
